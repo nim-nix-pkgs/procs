@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-procs-master.flake = false;
+  inputs.src-procs-master.ref   = "refs/heads/master";
   inputs.src-procs-master.owner = "c-blake";
-  inputs.src-procs-master.ref   = "master";
   inputs.src-procs-master.repo  = "procs";
   inputs.src-procs-master.type  = "github";
   
