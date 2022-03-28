@@ -11,7 +11,6 @@
   inputs.src-procs-master.ref   = "refs/heads/master";
   inputs.src-procs-master.owner = "c-blake";
   inputs.src-procs-master.repo  = "procs";
-  inputs.src-procs-master.dir   = "";
   inputs.src-procs-master.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
